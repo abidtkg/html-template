@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Roboto:400,700i&display=swap");
+$roboto: "Roboto", sans-serif;
+$btn-primary: #3583ef;
+$bg-color: #eef6ff;
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: $bg-color;
+}
+#navbar {
+  nav {
+    div {
+      @media only screen and (min-width: 991px) {
+        margin-left: 50px;
+      }
+    }
+    font-family: $roboto;
+    background-color: $bg-color;
+    #button {
+      background-color: $btn-primary;
+      font-family: $roboto;
+      border-radius: 20px;
+      box-shadow: 1px 3px 8px 2px #d4d4d6;
+      width: 110px;
+    }
+  }
+}
+
+#hero {
+  height: 100%;
+  width: 100%;
+  div {
+    font-family: "IBM Plex Sans", sans-serif;
+    h1 {
+      text-transform: uppercase;
+      font-weight: 90px;
+      font-family: "IBM Plex Sans", sans-serif;
+      @media only screen and (min-width: 768px) {
+        margin-top: 4em;
+      }
+    }
+    #call_to_one {
+      border-radius: 30px;
+      width: 150px;
+      height: 50px;
+      box-shadow: 1px 3px 8px 2px #d4d4d6;
+    }
+    #call_to_two {
+      border-radius: 30px;
+      background-color: white;
+      border: none;
+      box-shadow: 1px 3px 8px 2px #d4d4d6;
+      height: 50px;
+      width: 150px;
+      color: $btn-primary;
+    }
+
+    @media only screen and (min-width: 768px) {
+      #call_to_one {
+        border-radius: 30px;
+        width: 200px;
+        height: 50px;
+        box-shadow: 1px 3px 8px 2px #d4d4d6;
+      }
+      #call_to_two {
+        border-radius: 30px;
+        background-color: white;
+        border: none;
+        box-shadow: 1px 3px 8px 2px #d4d4d6;
+        height: 50px;
+        width: 200px;
+        color: $btn-primary;
+      }
+    }
+    // span {
+    //   color: $btn-primary;
+    //   font-family: $roboto;
+    // }
+  }
+}
