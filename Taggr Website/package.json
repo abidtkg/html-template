@@ -1,0 +1,11 @@
+{
+  "name": "taggr-website",
+  "version": "2.5.0",
+  "description": "Free Opensource Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abid Hasan",
+  "license": "MIT"
+}

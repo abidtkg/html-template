@@ -159,6 +159,10 @@ body {
   }
 }
 
+.brands div h4 {
+  text-transform: uppercase;
+}
+
 .brands div div img {
   height: 50px;
   width: auto;

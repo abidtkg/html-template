@@ -1,0 +1,1 @@
+document.getElementById("hero_btn_1").innerText = "Request demo";
