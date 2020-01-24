@@ -1,0 +1,23 @@
+{
+  "name": "abid_hasan",
+  "version": "1.2.0",
+  "description": "Abid Hasan personal website",
+  "main": "app.js",
+  "scripts": {
+    "start": "gulp watch"
+  },
+  "author": "Abid Hasan",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  },
+  "keywords": [
+    "StarterPack",
+    "gulpJS"
+  ]
+}

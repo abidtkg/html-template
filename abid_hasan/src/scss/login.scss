@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap&subset=latin-ext');
+$dark: #4e557e;
+$white: #F3F3F3;
+$light-paste: #4CC6CB;
+html,body{
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-image: url('../image/illustrations/login_bakground.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  margin: 0px;
+  padding: 0px;
+  // background-color: $light-paste;
+  h2{
+    font-family: 'Oxygen', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: $dark;
+  }
+  p{
+    font-family: 'Oxygen', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: $dark !important;
+    font-size: 11pt;
+    a{
+      color: #46be69 !important;
+    }
+  }
+  .login-btn{
+    background-color: $dark;
+    color: $white;
+    font-weight: 700;
+    font-size: 13pt;
+    height: 50px !important;
+    text-transform: uppercase;
+  }
+  .form-group{
+    label{
+      color: #06265B;
+    }
+  }
+}
